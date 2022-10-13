@@ -22,7 +22,7 @@ int main()
     load_cascade(eyes_cascade, "haarcascade_eye.xml");
     
     //얼굴 이미지 가져오기
-    Mat image = imread("/Users/yomyom/Desktop/opencv/src/sample.jpg", IMREAD_COLOR);
+    Mat image = imread("./src/sample.jpg", IMREAD_COLOR);
     
     //이미지 전처리
     Mat gray = preprocessing(image);
